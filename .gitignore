@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data (archivos grandes no se suben al repositorio)
+data/*.xlsx
+data/*.csv
+
+# Spark temporales
+derby.log
+metastore_db/
+spark-warehouse/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
